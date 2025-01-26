@@ -3,7 +3,7 @@ import { Button } from "./button";
 import TestimonialSingle from "./testimonial-single";
 // import TestimonialsAvatars from "./testimonials-avatars";
 
-import p1 from "@/public/images/p1.png"
+// import p1 from "@/public/images/p1.png"
 import p2 from "@/public/images/pctl.png"
 
 function Hero() {
