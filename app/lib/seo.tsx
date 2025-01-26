@@ -7,10 +7,8 @@ import config from "@/config";
 // But I recommend to set the canonical URL for each page (export const metadata = getSEOTags({canonicalUrlRelative: "/"});)
 // See https://shipfa.st/docs/features/seo
 export const getSEOTags = ({
-  title,
-  description,
+ 
   keywords,
-  openGraph,
   canonicalUrlRelative,
   extraTags,
 }: Metadata & {
