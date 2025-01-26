@@ -27,7 +27,7 @@ const Ares = () => {
                                 <h1 className='text-xl lg:text-2xl'>{area.h1}</h1>
                                 <p className='text-center mt-0 text-[#2D2D2D] text-sm lg:text-md font-light'>{area.p}</p>
                             </div>
-                            <a href={area.href} className='mt-[6px] lg:mt-0 text-cyan-500 0 no-underline flex items-center gap-2 hover:gap-4 transition-all ease-in-out duration-150'>Lear More <i className="ri-arrow-right-line text-lg"></i></a>
+                            {/* <a href={area.href} className='mt-[6px] lg:mt-0 text-cyan-500 0 no-underline flex items-center gap-2 hover:gap-4 transition-all ease-in-out duration-150'>Lear More <i className="ri-arrow-right-line text-lg"></i></a> */}
                         </div>
                     ))
                 }

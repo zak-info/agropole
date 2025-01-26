@@ -4,17 +4,17 @@ import TestimonialSingle from "./testimonial-single";
 // import TestimonialsAvatars from "./testimonials-avatars";
 
 import p1 from "@/public/images/p1.png"
-import p2 from "@/public/images/p2.png"
+import p2 from "@/public/images/pctl.png"
 
 function Hero() {
   return (
-    <div id="home" className="bg-slate-50">
+    <div id="home" className=" z-20">
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center px-8 py-12 pt-4 lg:px-12 lg:py-24">
         <div className="mx-auto mb-8 max-w-2xl py-8 sm:py-8 lg:py-8">
           <div className="hidden sm:flex sm:justify-center"></div>
-          <div className="mt-2 text-center">
-            <h1 className="text-4xl font-black tracking-tight text-slate-800 sm:text-6xl">
-              Agropole Systems
+          <div className="mt-2 text-center relative">
+            <h1 className="  text-4xl z-20 font-black tracking-tight text-slate-800 sm:text-6xl">
+              <span className="text-6xl bg-gradient-to-r via-cyan-600 to-sky-700 from-cyan-400 bg-clip-text text-transparent">Agropole Systems</span>
               <br />meilleure solution pour la gestion de magasin
             </h1>
             <p className="mt-6 text-base font-light leading-8 text-secondary-foreground text-slate-500 sm:text-lg">
@@ -23,7 +23,7 @@ function Hero() {
             <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
               <Button
                 color="cyan"
-                href={"/sign-up"}
+                href={"/#"}
                 className="h-12 w-64 rounded-md"
               >
                 découvrez
@@ -41,10 +41,10 @@ function Hero() {
             image: "/images/A.png",
           }}
         />
-        <div className="w-full flex justify-evenly">
+        <div className="w-full relative flex justify-evenly">
 
-          <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="hidden lg:block" />
-          <Image src={p2} placeholder="blur" alt="img" width={450} height={250} className="" />
+          {/* <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="hidden lg:block" /> */}
+          <Image src={p2} placeholder="blur" alt="img" width={1980} height={1080} className=" w-[70vw] h-[57vh]" />
         </div>
         {/* <TestimonialsAvatars priority={true} /> */}
       </div>
@@ -53,7 +53,7 @@ function Hero() {
 }
 const HeroFooter = () => {
   return (
-    <div className="-gap-1 mt-auto flex items-center justify-center">
+    <div className="-gap-1 relative mt-auto flex items-center justify-center">
       <svg
         viewBox="0 0 773 1262"
         className="w-8 rotate-12 fill-slate-500/40"

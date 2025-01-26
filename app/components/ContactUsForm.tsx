@@ -5,8 +5,8 @@ import React from 'react'
 const ContactUsForm = () => {
 
     return (
-        <div className='w-full bg-cyan-500 p-8 flex justify-center items-end'>
-            <form className='w-4/5 md:w-2/3 lg:w-1/4 z-10 bg-cyan-500 '>
+        <div className='w-full bg-gradient-to-bl from-cyan-500 to-cyan-400 p-8 flex justify-center items-end'>
+            <form className='w-4/5 md:w-2/3 lg:w-1/4 z-10 '>
 
                 <div className='flex flex-col mt-6 w-full'>
                     <label htmlFor="fullname" className='text-md text-gray-50 font-light'>Nom et Prenom</label>

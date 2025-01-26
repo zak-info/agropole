@@ -12,7 +12,7 @@ export default function TestimonialSingle({
 }) {
   const image = testimonial.image;
   return (
-    <div className="mx-auto mt-16 max-w-md space-y-4 md:mt-24 md:space-y-6">
+    <div className="mx-auto relative mt-16 max-w-md space-y-4 md:mt-24 md:space-y-6">
       <div className="rating !flex justify-center">
         {[...Array(5)].map((_, i) => (
           <svg

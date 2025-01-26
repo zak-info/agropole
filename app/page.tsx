@@ -1,4 +1,5 @@
 // import AccordionFeatures from "./components/accordion-features";
+import Image from "next/image";
 import Ares from "./components/Ares";
 import BeforeAfter from "./components/before-after";
 import ContactUsForm from "./components/ContactUsForm";
@@ -16,8 +17,12 @@ import { renderSchemaTags } from "./lib/seo";
 export default function Home() {
   return (
     <Container>
-      <Header />
-      <Hero />
+      <div className="w-full relative">
+        <Image src={"/images/wall2.png"} alt="image" width={1980} height={1080} className="absolute -z-10" />
+        <div className="w-full h-full absolute -z-0 bg-slate-50/50 backdrop-blur-md"></div>
+        <Header />
+        <Hero />
+      </div>
       <LogoClouds />
       <BeforeAfter />
       <Ares />
