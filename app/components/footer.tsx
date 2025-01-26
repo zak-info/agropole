@@ -25,7 +25,7 @@ export default function Footer() {
             </p> */}
           </div>
           <div className="flex flex-wrap flex-grow justify-center mt-10 -mb-10 text-center md:mt-0 md:pl-24">
-            <div className="px-4 w-full md:w-1/2 lg:w-1/3">
+            <div className="px-4 w-full md:w-1/2 lg:w-1/4">
               <div className="mb-3 text-sm font-semibold tracking-widest footer-title text-slate-900 md:text-left">
                 LINKS
               </div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="px-4 w-full md:w-1/2 lg:w-1/3">
+            <div className="px-4 w-full md:w-1/2 lg:w-1/4">
               <div className="mb-3 text-sm font-semibold tracking-widest footer-title text-slate-900 md:text-left">
                 LEGAL
               </div>
@@ -55,6 +55,17 @@ export default function Footer() {
                 <Link href="/privacy-policy" className="link link-hover">
                   Privacy policy
                 </Link>
+              </div>
+            </div>
+            <div className="px-4 w-full md:w-1/2 lg:w-1/4 bg-gradient-to-bl from-cyan-500 to-cyan-300 rounded-3xl p-8 shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]">
+              <div className="mb-3 text-xl font-semibold tracking-widest footer-title text-slate-900 md:text-left">
+                Our Apps
+              </div>
+              <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
+                <Image src={"/images/apple.png"} alt="apple store" width={200} height={100} className="" />
+                <a href="https://play.google.com/store/apps/details?id=com.agropole.agropole" target="_blank">
+                  <Image src={"/images/google.png"} alt="apple store" width={200} height={100} className="" />
+                </a>
               </div>
             </div>
           </div>
@@ -88,7 +99,7 @@ export default function Footer() {
                 rel="noreferrer"
                 className="font-medium link text-base-content"
               >
-               
+
               </a>
             </div>
           </div>
