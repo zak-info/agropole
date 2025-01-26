@@ -66,7 +66,7 @@ export function Header() {
               <span className="text-lg font-bold text-slate-800">
                 Agrople
               </span> */}
-              <Image  src={"/logo.png"} alt="Company Logo" width={1640} height={460} className="w-r28 hr-28 lg:h-12 lg:w-44 lg:relative lg:object-cover lg:z-[1] transition-all ease-in-out duration-200" />
+              <Image  src={"/logo.png"} alt="Company Logo" width={1640} height={460} className="w-28 h-16 lg:h-12 lg:w-44 lg:relative lg:object-cover lg:z-[1] transition-all ease-in-out duration-200" />
             </Link>
             <div className="hidden justify-center items-center lg:flex lg:gap-10">
               <NavLinks />

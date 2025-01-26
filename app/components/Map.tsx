@@ -4,7 +4,7 @@ import map from "@/public/images/map.png"
 
 const Map = () => {
     return (
-        <div className='w-full flex justify-center items-center gap-6 bg-slate-50 pt-16'>
+        <div className='w-full flex flex-col lg:flex-row justify-center items-center gap-6 bg-slate-50 py-16'>
             <Image src={map} placeholder='blur' alt='map' width={500} height={500} className='shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]' />
             <div className='p-4 bg-white rounded-xl shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]'>
                 <div className="mx-auto max-w-md  text-center text-base leading-relaxed text-slate-800">

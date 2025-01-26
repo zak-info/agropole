@@ -43,7 +43,7 @@ function Hero() {
         />
         <div className="w-full flex justify-evenly">
 
-          <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="" />
+          <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="hidden lg:block" />
           <Image src={p2} placeholder="blur" alt="img" width={450} height={250} className="" />
         </div>
         {/* <TestimonialsAvatars priority={true} /> */}
