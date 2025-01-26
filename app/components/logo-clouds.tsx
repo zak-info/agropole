@@ -1,6 +1,6 @@
 export default function LogoClouds() {
   return (
-    <div className="mx-auto max-w-5xl bg-white py-12">
+    <div className="w-full bg-slate-50 py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-md text-center leading-8 text-slate-600">
         Fiable pour les commerçants algériens

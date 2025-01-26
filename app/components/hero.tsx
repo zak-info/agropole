@@ -8,7 +8,7 @@ import p2 from "@/public/images/p2.png"
 
 function Hero() {
   return (
-    <div id="home">
+    <div id="home" className="bg-slate-50">
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center px-8 py-12 pt-4 lg:px-12 lg:py-24">
         <div className="mx-auto mb-8 max-w-2xl py-8 sm:py-8 lg:py-8">
           <div className="hidden sm:flex sm:justify-center"></div>

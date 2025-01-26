@@ -57,7 +57,7 @@ function MobileNavLink(
 
 export function Header() {
   return (
-    <header>
+    <header className="bg-slate-50">
       <nav className=" px-8 mx-auto max-w-6xl">
         <Container className="flex relative z-50 justify-between py-8">
           <div className="flex relative z-10 gap-16 justify-between items-center w-full">
