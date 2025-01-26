@@ -71,7 +71,7 @@ export function Header() {
             <div className="hidden justify-center items-center lg:flex lg:gap-10">
               <NavLinks />
               <Button href="https://dashboard.agropole.site/auth/login-basic" color="cyan">
-                Get Started
+              connexion
               </Button>
             </div>
           </div>
@@ -115,20 +115,17 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 px-6 pt-32 pb-6 rounded-b-2xl shadow-2xl origin-top bg-slate-50 shadow-slate-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="/#features">
+                            <MobileNavLink href="/#home">
                             Acceilleui
                             </MobileNavLink>
-                            <MobileNavLink href="/#pricing">
+                            <MobileNavLink href="/#bf">
                               Apropos
                             </MobileNavLink>
                             <MobileNavLink href="/#faq">FAQs</MobileNavLink>
                             {/* <MobileNavLink href="/blog">Blog</MobileNavLink> */}
                           </div>
                           <div className="flex flex-col gap-4 mt-8">
-                            <Button href="/" outline>
-                              Log in
-                            </Button>
-                            <Button href="#">Get Started</Button>
+                            <Button href="https://dashboard.agropole.site/auth/login-basic">Get Started</Button>
                           </div>
                         </PopoverPanel>
                       </>

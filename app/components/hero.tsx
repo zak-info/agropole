@@ -4,7 +4,7 @@ import TestimonialSingle from "./testimonial-single";
 // import TestimonialsAvatars from "./testimonials-avatars";
 
 // import p1 from "@/public/images/p1.png"
-import p2 from "@/public/images/pctl.png"
+import p2 from "@/public/images/all.png"
 
 function Hero() {
   return (
@@ -15,7 +15,7 @@ function Hero() {
           <div className="mt-2 text-center relative">
             <h1 className="  text-4xl z-20 font-black tracking-tight text-slate-800 sm:text-6xl">
               <span className="text-6xl bg-gradient-to-r via-cyan-600 to-sky-700 from-cyan-400 bg-clip-text text-transparent">Agropole Systems</span>
-              <br />meilleure solution pour la gestion de magasin
+              <br />tout votre réseau en un clic 
             </h1>
             <p className="mt-6 text-base font-light leading-8 text-secondary-foreground text-slate-500 sm:text-lg">
               Une nouvelle solution efficace
@@ -31,20 +31,20 @@ function Hero() {
             </div>
           </div>
         </div>
-        <HeroFooter />
+        {/* <HeroFooter /> */}
         <TestimonialSingle
           testimonial={{
             name: "SARL Agrople",
             content:
               "SARL Agropole em est une startup algérienne innovante qui réinvente la distribution alimentaire en mélangeant la distribution classique et une plateforme numérique connectée à l'ensemble de la chaîne d'approvisionnement. L'objectif est de faciliter l'accès aux produits alimentaires de qualité, en créant un écosystème où fournisseurs, distributeurs, grossistes, magasins de quartier et citoyens collaborent efficacement.",
-            schoolName: "Software and Systems",
+            schoolName: "Systems et Logiciel ",
             image: "/images/A.png",
           }}
         />
         <div className="w-full relative flex justify-evenly">
 
           {/* <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="hidden lg:block" /> */}
-          <Image src={p2} placeholder="blur" alt="img" width={1980} height={1080} className=" w-[70vw] h-[57vh]" />
+          <Image src={p2} placeholder="blur" alt="img" width={1980} height={1080} className=" w-[70vw]  lg:h-[62vh] mt-12" />
         </div>
         {/* <TestimonialsAvatars priority={true} /> */}
       </div>

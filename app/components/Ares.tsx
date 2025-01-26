@@ -15,17 +15,17 @@ const Ares = () => {
     ]
     return (
         <div  id="services" className='w-full flex flex-col items-center pb-16 pt-8 lg:py-[111px]'>
-            <h1 className='text-3xl md:text-4xl text-black font-extrabold'>Domaines de services</h1>
+            <h1 className='text-3xl md:text-4xl text-black font-extrabold'>nos services</h1>
             <p className='w-5/6 text-xs md:text-md  text-center text-neutral-600 font-light mt-[20px]'>Nous avons de l&apos;expérience dans plusieurs domaines, allant de la gestion de magasins à des solutions de niveau entreprise.</p>
             <AreasSlider areas={areas} />     
             <div className='hidden  w-full lg:flex flex-wrap justify-center items-center gap-12 mt-6 '>
                 {
                     areas.slice(0, 3).map((area, index) => (
-                        <div key={index} className='w-2/3 md:w-2/5 lg:w-[370px] py-[40px] lg:h-[384px] flex flex-col items-center justify-center lg:gap-[30px] c-border rounded-[35px] md:rounded-[27px] shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]'>
+                        <div key={index} className='w-2/3 md:w-2/5 lg:w-[370px] py-[40px] lg:h-[384px] flex flex-col items-center bg-gradient-to-bl from-cyan-500 to-cyan-400  justify-center lg:gap-[30px] c-border rounded-[35px] md:rounded-[27px] shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]'>
                             <Image src={area.img == "c" ? c :area.img == "s" ? s :area.img == "l" ? l :"/images/c.png"}  placeholder='blur' alt={area.h1} width={500} height={500} className='w-20 h-20 rounded-[26px]' />
                             <div className='w-4/5 md:w-[240px] lg:w-[310px] flex flex-col items-center gap-[24px] mt-[30px] lg:mt-0 '>
-                                <h1 className='text-xl lg:text-2xl'>{area.h1}</h1>
-                                <p className='text-center mt-0 text-[#2D2D2D] text-sm lg:text-md font-light'>{area.p}</p>
+                                <h1 className='text-xl lg:text-2xl font-bold text-white text-center '>{area.h1}</h1>
+                                <p className='text-center mt-0 text-white text-sm lg:text-md font-light'>{area.p}</p>
                             </div>
                             {/* <a href={area.href} className='mt-[6px] lg:mt-0 text-cyan-500 0 no-underline flex items-center gap-2 hover:gap-4 transition-all ease-in-out duration-150'>Lear More <i className="ri-arrow-right-line text-lg"></i></a> */}
                         </div>

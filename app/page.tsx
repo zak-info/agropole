@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <Container>
       <div className="w-full relative">
-        <Image src={"/images/wall2.png"} alt="image" width={1980} height={1080} className="absolute -z-10" />
+        <Image src={"/images/waly.png"} alt="image" width={1980} height={1080} className="absolute -z-10" />
         <div className="w-full h-full absolute -z-0 bg-slate-50/50 backdrop-blur-md"></div>
         <Header />
         <Hero />
