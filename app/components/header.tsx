@@ -70,7 +70,7 @@ export function Header() {
             </Link>
             <div className="hidden justify-center items-center lg:flex lg:gap-10">
               <NavLinks />
-              <Button href="/#" color="cyan">
+              <Button href="https://dashboard.agropole.site/auth/login-basic" color="cyan">
                 Get Started
               </Button>
             </div>
