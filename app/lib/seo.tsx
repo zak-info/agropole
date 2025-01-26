@@ -19,9 +19,9 @@ export const getSEOTags = ({
 } = {}) => {
   return {
     // up to 50 characters (what does your app do for the user?) > your main should be here
-    title: title || config.appName,
+    title: "Agropole",
     // up to 160 characters (how does your app help the user?)
-    description: description || config.appDescription,
+    description:"Store managment and systems",
     // some keywords separated by commas. by default it will be your app name
     keywords: keywords || [config.appName],
     applicationName: config.appName,
@@ -29,18 +29,18 @@ export const getSEOTags = ({
     metadataBase: new URL(
       process.env.NODE_ENV === "development"
         ? "http://localhost:3000/"
-        : `https://${config.domainName}/`
+        : `https://agropole.site/`
     ),
 
     openGraph: {
-      title: openGraph?.title || config.appName,
-      description: openGraph?.description || config.appDescription,
-      url: openGraph?.url || `https://${config.domainName}/`,
-      siteName: openGraph?.title || config.appName,
+      title: "agropole",
+      description: "agropole.site",
+      url: `https://agropole.site/`,
+      siteName: "agropole.site",
       // If you add an opengraph-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
       // images: [
       //   {
-      //     url: `https://${config.domainName}/share.png`,
+      //     url: `https://agropole.site/share.png`,
       //     width: 1200,
       //     height: 660,
       //   },
@@ -50,8 +50,8 @@ export const getSEOTags = ({
     },
 
     twitter: {
-      title: openGraph?.title || config.appName,
-      description: openGraph?.description || config.appDescription,
+      title: "agropole.site",
+      description: "agropole.site",
       // If you add an twitter-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
       // images: [openGraph?.image || defaults.og.image],
       card: "summary_large_image",
@@ -84,8 +84,8 @@ export const renderSchemaTags = () => {
           "@type": "SoftwareApplication",
           name: config.appName,
           description: config.appDescription,
-          image: `https://${config.domainName}/icon.png`,
-          url: `https://${config.domainName}/`,
+          image: `https://agropole.site/icon.png`,
+          url: `https://agropole.site/`,
           author: {
             "@type": "Person",
             name: "Artem Kirsanov",
