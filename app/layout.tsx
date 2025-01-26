@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata = getSEOTags({
-  title: "QuillMinds",
-  description: "QuillMinds is ai-powered lesson preparation tool for teachers.",
+  title: "Agropole",
+  description: "Store managment and systems",
   canonicalUrlRelative: "/",
 });
 
