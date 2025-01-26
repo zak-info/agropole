@@ -84,7 +84,7 @@ export default function BeforeAfter() {
                       <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                     </svg>
                   </div>
-                  Conçu pour les grossistes et distributeurs, ce profil leur permet d'acheter auprès des fournisseurs et de vendre aux magasins de quartier.
+                  Conçu pour les grossistes et distributeurs, ce profil leur permet d&rsquo;acheter auprès des fournisseurs et de vendre aux magasins de quartier.
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="shrink-0 py-1.5">
@@ -168,7 +168,7 @@ export default function BeforeAfter() {
                 <p className="text-base font-semibold text-slate-700">Profile</p>
               </div>
               <h3 className="font-display mt-4 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Profil Magasin (magasins de quartier)*
+                Profil Magasin (magasins de quartier)
               </h3>
               <ul className="mt-6 space-y-3 text-base text-slate-600 sm:text-lg">
                 <li className="flex items-start gap-3">
