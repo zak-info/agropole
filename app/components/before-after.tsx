@@ -48,7 +48,7 @@ export default function BeforeAfter() {
                       <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                     </svg>
                   </div>
-                  Ils peuvent gérer leurs catalogues, recevoir des commandes en gros et optimiser leur chaîne d'approvisionnement.                </li>
+                  Ils peuvent gérer leurs catalogues, recevoir des commandes en gros et optimiser leur chaîne d&rsquo;approvisionnement.                </li>
 
               </ul>
             </div>
@@ -98,7 +98,8 @@ export default function BeforeAfter() {
                       <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                     </svg>
                   </div>
-                  Ils peuvent suivre leurs ventes, gérer leurs stocks et développer leur réseau de partenaires.                  </li>
+                  Ils peuvent suivre leurs ventes, gérer leurs stocks et développer leur réseau de partenaires.
+                </li>
               </ul>
             </div>
           </div>
@@ -133,7 +134,7 @@ export default function BeforeAfter() {
                       <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                     </svg>
                   </div>
-                  Simplifie l'accès aux produits de qualité pour les citoyens.
+                  Simplifie l&rsquo;accès aux produits de qualité pour les citoyens.
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="shrink-0 py-1.5">

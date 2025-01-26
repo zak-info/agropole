@@ -1,8 +1,8 @@
-import Image from "next/image";
-import t1 from "@/public/images/t1.svg"
-import t2 from "@/public/images/t2.svg"
-import t3 from "@/public/images/t3.svg"
-import t4 from "@/public/images/t4.svg"
+// import Image from "next/image";
+// import t1 from "@/public/images/t1.svg"
+// import t2 from "@/public/images/t2.svg"
+// import t3 from "@/public/images/t3.svg"
+// import t4 from "@/public/images/t4.svg"
 
 export default function LogoClouds() {
   return (
