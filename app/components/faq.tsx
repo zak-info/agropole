@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import TestimonialSingle from "./testimonial-single";
+// import TestimonialSingle from "./testimonial-single";
 
 const faqData = [
   {
-    question: "Qu'est-ce que ce logiciel peut faire pour mon magasin ?",
+    question: "Qu&apos;est-ce que ce logiciel peut faire pour mon magasin ?",
     answer: (
       <div className="space-y-2 leading-relaxed">
         <p>
@@ -92,7 +92,7 @@ const FAQItem = ({
   );
 };
 
-export default function FAQ({ config }: { config?: any }) {
+export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleToggle = (index: number) => {

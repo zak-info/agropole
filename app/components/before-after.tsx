@@ -1,4 +1,4 @@
-export default function BeforeAfter({ config }: { config?: any }) {
+export default function BeforeAfter() {
   return (
     <section id="bf" >
       <div className="mx-auto max-w-5xl px-8 py-16 md:py-24">
@@ -19,7 +19,7 @@ export default function BeforeAfter({ config }: { config?: any }) {
                 <p className="text-base font-semibold text-slate-700">Avant</p>
               </div>
               <h3 className="font-display mt-4 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Avant d'utiliser le logiciel
+                Avant d&apos;utiliser le logiciel
               </h3>
               <ul className="mt-6 space-y-3 text-base text-slate-600 sm:text-lg">
                 <li className="flex items-start gap-3">

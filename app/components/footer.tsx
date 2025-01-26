@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import SVGLogo from "./svg-logo";
 import chanane from "@/public/images/chanane.png";
 
 export default function Footer() {

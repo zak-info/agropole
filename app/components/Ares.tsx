@@ -16,7 +16,7 @@ const Ares = () => {
     return (
         <div  id="services" className='w-full flex flex-col items-center pb-16 pt-8 lg:py-[111px]'>
             <h1 className='text-3xl md:text-4xl text-black font-extrabold'>Domaines de services</h1>
-            <p className='w-5/6 text-xs md:text-md  text-center text-neutral-600 font-light mt-[20px]'>Nous avons de l'expérience dans plusieurs domaines, allant de la gestion de magasins à des solutions de niveau entreprise.</p>
+            <p className='w-5/6 text-xs md:text-md  text-center text-neutral-600 font-light mt-[20px]'>Nous avons de l&apos;expérience dans plusieurs domaines, allant de la gestion de magasins à des solutions de niveau entreprise.</p>
             <AreasSlider areas={areas} />     
             <div className='hidden  w-full lg:flex flex-wrap justify-center items-center gap-12 mt-6 '>
                 {
@@ -36,7 +36,7 @@ const Ares = () => {
                     <Image alt='img' src={"/images/p4.webp"} width={1980} height={1080} className='w-20 h-20 rounded-[26px]' />
                     <div className='w-4/5 md:w-[240px] lg:w-[310px] flex flex-col items-center gap-[24px] mt-[30px] lg:mt-0 '>
                         <h1 className='text-2xl lg:text-3xl'>appartments</h1>
-                        <p className='text-center mt-0 text-[#2D2D2D] text-sm lg:text-md font-light'>No need to worry about screen size. Anima's Landing Page Ul Kit adapts to any screen size, from desktop to mobile.</p>
+                        <p className='text-center mt-0 text-[#2D2D2D] text-sm lg:text-md font-light'>No need to worry about screen size. Anima&apos;s Landing Page Ul Kit adapts to any screen size, from desktop to mobile.</p>
                     </div>
                     <a href={"#"} className='mt-[6px] lg:mt-0 text-teal-600 no-underline flex items-center gap-2 hover:gap-4 transition-all ease-in-out duration-150'>Lear More <i className="ri-arrow-right-line text-lg"></i></a>
                 </div>

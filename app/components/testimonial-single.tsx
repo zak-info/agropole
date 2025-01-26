@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TestimonialSingle({
   testimonial,
 }: {
@@ -32,11 +34,11 @@ export default function TestimonialSingle({
         {testimonial.content}
       </div>
       <div className="flex items-center justify-center gap-3 md:gap-4">
-        <img
+        <Image
           alt="Philipp Keller feedback for ZenVoice"
-          loading="lazy"
-          width="48"
-          height="48"
+          // loading="lazy"
+          width={48}
+          height={48}
           decoding="async"
           data-nimg="1"
           className="h-10 w-10 rounded-full object-cover md:h-12 md:w-12"

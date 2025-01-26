@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Button } from "./button";
 import TestimonialSingle from "./testimonial-single";
-import TestimonialsAvatars from "./testimonials-avatars";
+// import TestimonialsAvatars from "./testimonials-avatars";
 
 import p1 from "@/public/images/p1.png"
 import p2 from "@/public/images/p2.png"
 
-function Hero({ config }: { config?: any }) {
+function Hero() {
   return (
     <div id="home">
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center px-8 py-12 pt-4 lg:px-12 lg:py-24">
