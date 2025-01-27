@@ -12,7 +12,7 @@ function Hero() {
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center px-8 py-12 pt-4 lg:px-12 lg:py-24">
         <div className="mx-auto mb-8 max-w-2xl py-8 sm:py-8 lg:py-8">
           <div className="hidden sm:flex sm:justify-center"></div>
-          <div className="mt-2 text-center relative">
+          <div className="bg-slate-50/50 backdrop-blur-md py-4 rounded-3xl mt-2 text-center relative">
             <h1 className="  text-4xl z-20 font-black tracking-tight text-slate-800 sm:text-6xl">
               <span className="text-6xl bg-gradient-to-r via-cyan-600 to-sky-700 from-cyan-400 bg-clip-text text-transparent">Agropole Systems</span>
               <br />tout votre réseau en un clic 

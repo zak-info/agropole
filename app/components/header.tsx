@@ -57,9 +57,9 @@ function MobileNavLink(
 
 export function Header() {
   return (
-    <header className=" z-10 ">
+    <header className="bg-slate-50/50 backdrop-blur-md z-10 ">
       <nav className=" px-8 mx-auto max-w-6xl">
-        <Container className="flex relative z-50 justify-between py-8">
+        <Container className="flex relative z-50 justify-between py-4">
           <div className="flex relative z-10 gap-16 justify-between items-center w-full">
             <Link href="/" className="flex gap-2 items-center font-semibold">
               {/* <SVGLogo />
@@ -116,7 +116,7 @@ export function Header() {
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="/#home">
-                            Acceilleui
+                            accueil
                             </MobileNavLink>
                             <MobileNavLink href="/#bf">
                               Apropos
@@ -125,7 +125,7 @@ export function Header() {
                             {/* <MobileNavLink href="/blog">Blog</MobileNavLink> */}
                           </div>
                           <div className="flex flex-col gap-4 mt-8">
-                            <Button href="https://dashboard.agropole.site/auth/login-basic">Get Started</Button>
+                            <Button href="https://dashboard.agropole.site/auth/login-basic">Connexion</Button>
                           </div>
                         </PopoverPanel>
                       </>
