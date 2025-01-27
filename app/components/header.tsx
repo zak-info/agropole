@@ -120,7 +120,7 @@ export function Header() {
                             <MobileNavLink href="/#faq">FAQs</MobileNavLink>
                             {/* <MobileNavLink href="/blog">Blog</MobileNavLink> */}
                           </div>
-                          <div className="flex flex-col gap-4 mt-8">
+                          <div className="flex flex-col gap-4 mt-8 font-black">
                             <Button href="https://dashboard.agropole.site/auth/login-basic">Connexion</Button>
                           </div>
                         </PopoverPanel>
