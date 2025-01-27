@@ -12,7 +12,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Container } from "./container";
 import { NavLinks } from "./nav-links";
 import { Button } from "./button";
-import Image from "next/image";
+
 
 function MenuIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
@@ -57,17 +57,13 @@ function MobileNavLink(
 
 export function Header() {
   return (
-    <header className="bg-slate-50/50 backdrop-blur-md z-10 ">
+    <header className="lg:bg-slate-50/50 lg:backdrop-blur-md z-20 ">
       <nav className=" px-8 mx-auto max-w-6xl">
         <Container className="flex relative z-50 justify-between py-4">
-          <div className="flex relative z-10 gap-16 justify-between items-center w-full">
-            <Link href="/" className="flex gap-2 items-center font-semibold">
-              {/* <SVGLogo />
-              <span className="text-lg font-bold text-slate-800">
-                Agrople
-              </span> */}
+          <div className="flex relative z-10 gap-16 justify-end items-center w-full">
+            {/* <Link href="/" className="flex gap-2 items-center font-semibold">
               <Image  src={"/logo.png"} alt="Company Logo" width={1640} height={460} className="w-28 h-8 lg:h-12 lg:w-44 lg:relative lg:object-cover lg:z-[1] transition-all ease-in-out duration-200" />
-            </Link>
+            </Link> */}
             <div className="hidden justify-center items-center lg:flex lg:gap-10">
               <NavLinks />
               <Button href="https://dashboard.agropole.site/auth/login-basic" color="cyan">
@@ -80,7 +76,7 @@ export function Header() {
               {({ open }) => (
                 <>
                   <PopoverButton
-                    className="inline-flex relative z-10 items-center p-2 -m-2 rounded-lg ui-not-focus-visible:outline-none stroke-slate-900 hover:bg-slate-200/50 hover:stroke-slate-600 active:stroke-slate-900"
+                    className="inline-flex relative z-30 items-center p-2 -m-2 rounded-lg ui-not-focus-visible:outline-none stroke-slate-900 hover:bg-slate-200/50 hover:stroke-slate-600 active:stroke-slate-900"
                     aria-label="Toggle site navigation"
                   >
                     {({ open }) =>
@@ -100,7 +96,7 @@ export function Header() {
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
-                          className="fixed inset-0 z-0 backdrop-blur bg-slate-300/60"
+                          className="fixed inset-0 z-20 backdrop-blur bg-slate-300/60"
                         />
                         <PopoverPanel
                           static
@@ -112,7 +108,7 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 px-6 pt-32 pb-6 rounded-b-2xl shadow-2xl origin-top bg-slate-50 shadow-slate-900/20"
+                          className="absolute inset-x-0 top-0 z-20 px-6 pt-32 pb-6 rounded-b-2xl shadow-2xl origin-top bg-slate-50 shadow-slate-900/20"
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="/#home">

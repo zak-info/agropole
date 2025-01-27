@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Button } from "./button";
 import TestimonialSingle from "./testimonial-single";
 // import TestimonialsAvatars from "./testimonials-avatars";
 
@@ -8,19 +7,19 @@ import p2 from "@/public/images/all.png"
 
 function Hero() {
   return (
-    <div id="home" className=" z-20">
+    <div id="home" className="">
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center px-8 py-12 pt-4 lg:px-12 lg:py-24">
         <div className="mx-auto mb-8 max-w-2xl py-8 sm:py-8 lg:py-8">
           <div className="hidden sm:flex sm:justify-center"></div>
-          <div className="bg-slate-50/50 backdrop-blur-md py-4 rounded-3xl mt-2 text-center relative">
-            <h1 className="  text-4xl z-20 font-black tracking-tight text-slate-800 sm:text-6xl">
-              <span className="text-6xl bg-gradient-to-r via-cyan-600 to-sky-700 from-cyan-400 bg-clip-text text-transparent">Agropole Systems</span>
+          <div className=" lg:mt-2 text-center relative mt-32">
+            <h1 className="  text-4xl -z-10  lg:gap-0 font-black lg:text-white tracking-tight  sm:text-6xl">
+              <span className="text-6xl   ">Agropole</span>
               <br />tout votre réseau en un clic 
             </h1>
-            <p className="mt-6 text-base font-light leading-8 text-secondary-foreground text-slate-500 sm:text-lg">
+            {/* <p className="mt-6 text-base font-light leading-8 text-secondary-foreground text-slate-500 sm:text-lg">
               Une nouvelle solution efficace
-            </p>
-            <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
+            </p> */}
+            {/* <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
               <Button
                 color="cyan"
                 href={"/#"}
@@ -28,7 +27,7 @@ function Hero() {
               >
                 découvrez
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <HeroFooter /> */}
@@ -42,7 +41,6 @@ function Hero() {
           }}
         />
         <div className="w-full relative flex justify-evenly">
-
           {/* <Image src={p1} placeholder="blur" alt="img" width={450} height={500} className="hidden lg:block" /> */}
           <Image src={p2} placeholder="blur" alt="img" width={1980} height={1080} className=" w-[70vw]  lg:h-[62vh] mt-12" />
         </div>

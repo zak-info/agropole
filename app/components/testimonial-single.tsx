@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function TestimonialSingle({
   testimonial,
@@ -10,11 +10,11 @@ export default function TestimonialSingle({
     image: string;
   };
 }) {
-  const image = testimonial.image;
+  // const image = testimonial.image;
   return (
     <div className="mx-auto relative mt-16 max-w-md space-y-4 md:mt-24 md:space-y-6">
-      <div className="rating !flex justify-center">
-        {[...Array(5)].map((_, i) => (
+      <div className="rating !flex justify-center lg:mt-6 ">
+        {/* {[...Array(5)].map((_, i) => (
           <svg
             key={i}
             xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +28,15 @@ export default function TestimonialSingle({
               clipRule="evenodd"
             />
           </svg>
-        ))}
+        ))} */}
+        <span className="w-full text-start lg:text-center">
+          à propos de nous
+        </span>
       </div>
-      <div className="mx-auto max-w-md space-y-2 text-center text-base leading-relaxed text-slate-800">
+      <div className="mx-auto max-w-md space-y-2 text-start lg:text-center text-base leading-relaxed text-slate-800">
         {testimonial.content}
       </div>
-      <div className="flex items-center justify-center gap-3 md:gap-4">
+      {/* <div className="flex items-center justify-center gap-3 md:gap-4">
         <Image
           alt="Philipp Keller feedback for ZenVoice"
           // loading="lazy"
@@ -49,7 +52,7 @@ export default function TestimonialSingle({
           <p className="font-semibold text-slate-800">{testimonial.name}</p>
           <p className="text-sm text-slate-600">{testimonial.schoolName}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
