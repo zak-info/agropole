@@ -110,7 +110,7 @@ export function Header() {
                           }}
                           className="absolute inset-x-0 top-0 z-20 px-6 pt-32 pb-6 rounded-b-2xl shadow-2xl origin-top bg-slate-50 shadow-slate-900/20"
                         >
-                          <div className="space-y-4">
+                          <div className="space-y-4 font-black">
                             <MobileNavLink href="/#home">
                             Accueil
                             </MobileNavLink>

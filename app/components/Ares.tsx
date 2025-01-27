@@ -7,7 +7,7 @@ import AreasSlider from './AreasSlider'
 
 const Ares = () => {
     const areas = [
-        { img: "c", h1: "communication et annonces", icon: <i className="ri-chat-ai-line"></i>, p: "Discussion chat, Envoi et réception des commandes, Envoi  et réception des devis Diffusion des annonces" },
+        { img: "c", h1: "Communication et annonces", icon: <i className="ri-chat-ai-line"></i>, p: "Discussion chat, Envoi et réception des commandes, Envoi  et réception des devis Diffusion des annonces" },
         { img: "s", h1: "Stock ", icon: <i className="ri-instance-line"></i>, p: "Voir détail de stock,Voir la disponibilité des produits , OPS ( Gestion stock + caisse)" },
         { img: "l", h1: "Livraison et Localisation", icon: <i className="ri-truck-line"></i>, p: "Demander la livraison et  Localisation des clients et fournisseurs" },
         // { img: "/images/aca.png", h1: "E-learning programs", href: "#", p: "E-learning programs ,Courses in architecture, design and software related to architecture." },
