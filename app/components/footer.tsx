@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex flex-wrap flex-grow justify-center mt-10 -mb-10 text-center md:mt-0 md:pl-24">
             <div className="px-4 w-full md:w-1/2 lg:w-1/4">
               <div className="mb-3 text-sm font-semibold tracking-widest footer-title text-slate-900 md:text-left">
-                LINKS
+                LIENS
               </div>
               <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
                 <a
@@ -40,26 +40,26 @@ export default function Footer() {
                   Support
                 </a>
                 <Link href="/#pricing" className="link link-hover">
-                  Pricing
+                  Techniques
                 </Link>
               </div>
             </div>
             <div className="px-4 w-full md:w-1/2 lg:w-1/4">
               <div className="mb-3 text-sm font-semibold tracking-widest footer-title text-slate-900 md:text-left">
-                LEGAL
+                Sujets
               </div>
               <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
                 <Link href="/tos" className="link link-hover">
-                  Terms of services
+                  Terms et services
                 </Link>
                 <Link href="/privacy-policy" className="link link-hover">
-                  Privacy policy
+                  Conditions
                 </Link>
               </div>
             </div>
             <div className="px-4 w-full md:w-1/2 lg:w-1/4 bg-gradient-to-bl from-cyan-500 to-cyan-300 rounded-3xl p-8 shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)]">
               <div className="mb-3 text-xl font-semibold tracking-widest footer-title text-slate-900 md:text-left">
-                Our Apps
+                Nos Apps
               </div>
               <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
                 <Image src={"/images/apple.png"} alt="apple store" width={200} height={100} className="" />

@@ -12,7 +12,7 @@ export default function TestimonialSingle({
 }) {
   // const image = testimonial.image;
   return (
-    <div className="mx-auto relative mt-16 w-full flex flex-col lg:flex-row justify-evenly  space-y-4 md:mt-52 md:space-y-6">
+    <div className="mx-auto relative mt-16 w-full flex flex-col lg:flex-row justify-evenly  space-y-4 md:mt-60 md:space-y-6">
       <div className="rating !flex justify-center lg:mt-6 ">
         {/* {[...Array(5)].map((_, i) => (
           <svg
@@ -29,7 +29,7 @@ export default function TestimonialSingle({
             />
           </svg>
         ))} */}
-        <span className="w-full  text-start text-5xl font-bold text-sky-800 ">
+        <span className="w-3/4  text-start text-6xl font-bold text-black ">
           à propos de nous
         </span>
       </div>

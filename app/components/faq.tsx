@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "Qu&apos;est-ce que ce logiciel peut faire pour mon magasin ?",
+    question: "Qu'est-ce que ce logiciel peut faire pour mon magasin ?",
     answer: (
       <div className="space-y-2 leading-relaxed">
         <p>

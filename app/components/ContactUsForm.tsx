@@ -25,7 +25,7 @@ const ContactUsForm = () => {
                     <textarea name="msg" className='w-full h-40 text-base mt-2 px-4 py-3 border-none outline-none rounded-[10px]' id="msg" required />
                 </div>
                 <button type='submit' className='w-full py-4 border-2 border-white text-white rounded-full text-xl mt-8 uppercase'>
-                    Submit
+                    Envoyer
                 </button>
 
             </form>
