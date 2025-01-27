@@ -13,7 +13,7 @@ function Hero() {
           <div className="hidden sm:flex sm:justify-center"></div>
           <div className=" lg:mt-2 text-center relative mt-32">
             <h1 className="  text-4xl -z-10  lg:gap-0 font-black lg:text-white tracking-tight  sm:text-6xl">
-              <span className="text-6xl bg-gradient-to-r from-cyan-400 to-cyan-500 bg-clip-text text-transparent lg:text-white">Agropole</span>
+              <span className="text-6xl bg-gradient-to-r from-cyan-400 to-cyan-500 bg-clip-text text-transparent ">Agropole</span>
               <br/>
               <span className="text-2xl lg:text-5xl ">
                 tout votre réseau en un clic
