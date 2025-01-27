@@ -14,9 +14,9 @@ const Ares = () => {
         // { img: "/images/p5.webp", h1: "marketplace", href: "#", p: "A marketplace for construction products (an online marketplace for all construction related products)A marketplace for construction products ,an online marketplace for all construction related products." },
     ]
     return (
-        <div id="services" className='w-full flex flex-col items-center pb-16 pt-8 lg:py-[111px]'>
-            <h1 className='text-3xl md:text-4xl text-black font-extrabold'>nos services</h1>
-            <p className='w-5/6 text-xs md:text-md  text-center text-neutral-600 font-light mt-[20px]'>Nous avons de l&apos;expérience dans plusieurs domaines, allant de la gestion de magasins à des solutions de niveau entreprise.</p>
+        <div id="services" className='w-full flex flex-col items-center pb-16 pt-8 lg:py-[111px] font-black'>
+            <h1 className='text-3xl md:text-4xl text-black '>Nos services</h1>
+            <p className='w-5/6 text-xs md:text-md  text-center text-neutral-600  mt-[20px]'>Nous avons de l&apos;expérience dans plusieurs domaines, allant de la gestion de magasins à des solutions de niveau entreprise.</p>
             <AreasSlider areas={areas} />     
             <div className='hidden  w-full lg:flex flex-wrap justify-center items-center gap-12 mt-6 '>
                 {
@@ -25,7 +25,7 @@ const Ares = () => {
                             {/* <Image src={area.img == "c" ? c :area.img == "s" ? s :area.img == "l" ? l :"/images/c.png"}  placeholder='blur' alt={area.h1} width={500} height={500} className='w-20 h-20 rounded-[26px]' /> */}
                             <span className='text-6xl text-white'>{area?.icon}</span>
                             <div className='w-4/5 md:w-[240px] lg:w-[310px] flex flex-col items-center gap-[24px] mt-[30px] lg:mt-0 '>
-                                <h1 className='text-xl lg:text-2xl font-bold text-white text-center '>{area.h1}</h1>
+                                <h1 className='text-xl lg:text-2xl  text-white text-center '>{area.h1}</h1>
                                 <p className='text-center mt-0 text-white text-sm lg:text-md font-light'>{area.p}</p>
                             </div>
                             {/* <a href={area.href} className='mt-[6px] lg:mt-0 text-cyan-500 0 no-underline flex items-center gap-2 hover:gap-4 transition-all ease-in-out duration-150'>Lear More <i className="ri-arrow-right-line text-lg"></i></a> */}
