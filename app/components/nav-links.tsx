@@ -11,8 +11,8 @@ export function NavLinks() {
   const pathname = usePathname();
 
   return [
-    ["accueil", "/#home"],
-    ["Apropos", "/#bf"],
+    ["Accueil", "/#home"],
+    ["A propos", "/#bf"],
     ["FAQs", "/#faq"],
     // ["Blog", "/blog"],
   ].map(([label, href], index) => (
