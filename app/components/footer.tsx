@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
                 <a
-                  href="mailto:contact@quillminds.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link link-hover"
@@ -39,7 +39,7 @@ export default function Footer() {
                 >
                   Support
                 </a>
-                <Link href="/#pricing" className="link link-hover">
+                <Link href="#" className="link link-hover">
                   Techniques
                 </Link>
               </div>
@@ -49,10 +49,10 @@ export default function Footer() {
                 Sujets
               </div>
               <div className="flex flex-col gap-2 justify-center items-center mb-10 text-sm text-slate-700 hover:text-slate-900 md:items-start">
-                <Link href="/tos" className="link link-hover">
+                <Link href="#" className="link link-hover">
                   Terms et services
                 </Link>
-                <Link href="/privacy-policy" className="link link-hover">
+                <Link href="#" className="link link-hover">
                   Conditions
                 </Link>
               </div>
