@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 text-sm md:mt-16">
-          <div className="flex flex-row gap-4 justify-start items-center">
+          {/* <div className="flex flex-row gap-4 justify-start items-center">
             <Image
               alt="Artem Kirsanov"
               src={chanane}
@@ -102,7 +102,7 @@ export default function Footer() {
 
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
