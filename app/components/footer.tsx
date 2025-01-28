@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import chanane from "@/public/images/chanane.png";
+// import chanane from "@/public/images/chanane.png";
 
 export default function Footer() {
   return (
